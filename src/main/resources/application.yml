@@ -2,3 +2,15 @@ micronaut:
   application:
     name: kafkaBase
 kafka.bootstrap.servers: localhost:9092
+
+kafka:
+  enabled: true
+  consumers:
+    enabled: true
+  producers:
+    enabled: true
+
+service:
+  kafka:
+    topics:
+      product: "awesome-products"
