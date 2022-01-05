@@ -1,4 +1,5 @@
 plugins {
+    id("java")
     id("com.github.johnrengelman.shadow") version "7.1.1"
     id("io.micronaut.application") version "3.1.1"
 }
@@ -20,6 +21,8 @@ micronaut {
 }
 
 dependencies {
+    compileOnly("org.projectlombok:lombok:1.18.22")
+    annotationProcessor("org.projectlombok:lombok:1.18.22")
     annotationProcessor("io.micronaut:micronaut-http-validation")
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.micronaut:micronaut-runtime")
