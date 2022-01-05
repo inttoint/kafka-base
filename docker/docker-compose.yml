@@ -38,7 +38,7 @@ services:
     ports:
       - '9000:9000'
     environment:
-      KAFKA_BROKERCONNECT: 'kafka:29092'
+      KAFKA_BROKERCONNECT: 'kafka:19092'
       SERVER_PORT: 9000
       MANAGEMENT_SERVER_PORT: 9000
       JVM_OPTS: '-Xms16M -Xmx48M -Xss180K -XX:-TieredCompilation -XX:+UseStringDeduplication -noverify'
