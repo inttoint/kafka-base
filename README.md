@@ -1,3 +1,3 @@
 ## Kafka base
 
-Experiment with Kafka in Micronaut
+Experiment with Kafka in Micronaut.
